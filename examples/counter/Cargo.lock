@@ -2162,6 +2162,7 @@ dependencies = [
 [[package]]
 name = "facet-generate-attrs"
 version = "0.17.0"
+source = "git+https://github.com/redbadger/facet-generate?branch=feat%2Ftypescript-discriminated-unions#f557b2f8944ee7f96b8a0c9ed5688e4a0b67438d"
 dependencies = [
  "facet",
 ]
@@ -2214,6 +2215,7 @@ dependencies = [
 [[package]]
 name = "facet_generate"
 version = "0.17.2"
+source = "git+https://github.com/redbadger/facet-generate?branch=feat%2Ftypescript-discriminated-unions#f557b2f8944ee7f96b8a0c9ed5688e4a0b67438d"
 dependencies = [
  "derive_builder",
  "facet",
