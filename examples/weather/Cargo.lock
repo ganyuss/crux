@@ -572,7 +572,7 @@ dependencies = [
  "derive_builder",
  "encoding_rs",
  "facet 0.44.5",
- "facet-generate-attrs",
+ "facet-generate-attrs 0.17.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "futures-util",
  "http-types-red-badger-temporary-fork",
  "pin-project-lite",
@@ -916,6 +916,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "facet-generate-attrs"
+version = "0.17.0"
+source = "git+https://github.com/redbadger/facet-generate?branch=feat%2Ftypescript-discriminated-unions#f557b2f8944ee7f96b8a0c9ed5688e4a0b67438d"
+dependencies = [
+ "facet 0.44.5",
+]
+
+[[package]]
 name = "facet-macro-parse"
 version = "0.44.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -993,13 +1001,12 @@ dependencies = [
 
 [[package]]
 name = "facet_generate"
-version = "0.17.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "dd2735cffb3535a6d1554197eaf509192103c9fd0f66cf01f143c252ef0f78d7"
+version = "0.17.2"
+source = "git+https://github.com/redbadger/facet-generate?branch=feat%2Ftypescript-discriminated-unions#f557b2f8944ee7f96b8a0c9ed5688e4a0b67438d"
 dependencies = [
  "derive_builder",
  "facet 0.44.5",
- "facet-generate-attrs",
+ "facet-generate-attrs 0.17.0 (git+https://github.com/redbadger/facet-generate?branch=feat%2Ftypescript-discriminated-unions)",
  "heck",
  "include_dir",
  "indent",
